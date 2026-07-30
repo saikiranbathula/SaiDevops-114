@@ -25,7 +25,7 @@ pipeline {
 	
 	post {
        failure {
-		   echo "One of the stage has failed."
+		   echo "Two of the stage has failed."
        }
 			
        success {
